@@ -12,7 +12,7 @@ Here is a brief description of the data files:
   - ".y.t" files contain the time stamps for the labels. The units are in seconds and the sampling rates is 10 Hz.
 
 =====================================
-Proposed Framework:
+## Proposed Framework:
 
 Using windows of size 6xN, the windows are strided over the time series and capture a matrix with the formentioned dimension having a label corresponding to the last timestamp related to the window. Multiple training
 samples are gathered using this approach and a CNN with a specific architecture is trained.
